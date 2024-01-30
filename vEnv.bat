@@ -1,1 +1,1 @@
-C:\ProjectWork\vEnv\Scripts\activate
+C:\ProjectWork1\vEnv\Scripts\activate
