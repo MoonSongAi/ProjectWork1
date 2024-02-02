@@ -1,8 +1,17 @@
 import openai
 import time
-
+from dotenv import load_dotenv
+import os
 # OpenAI API 키 설정
-openai.api_key = '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' #moonsong Ai
+
+
+# 환경 변수 로드
+load_dotenv()
+
+# 환경 변수에서 API 키 불러오기
+openai.api_key = os.getenv('OPENAI_API_KEY')
+
+print(openai.api_key)
 
 def call_openai_api(_prompt):
     try:
