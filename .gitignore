@@ -1,1 +1,2 @@
 /myEnv # 가상 환경 무시
+/WorkRoot/tests/yoon_test/.env
